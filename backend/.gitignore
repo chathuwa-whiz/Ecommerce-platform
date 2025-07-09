@@ -1,0 +1,324 @@
+# ==============================================
+# .gitignore for Django + Next.js Full-Stack App
+# ==============================================
+
+# ========== PYTHON/DJANGO BACKEND ==========
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+
+# Django migrations (uncomment if you want to ignore migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========== NODE.JS/NEXT.JS FRONTEND ==========
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Next.js
+.next/
+out/
+build/
+
+# Nuxt.js
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# ========== PACKAGE MANAGERS ==========
+
+# npm
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# pnpm
+.pnpm-debug.log*
+
+# ========== ENVIRONMENT & CONFIG ==========
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+.secrets
+credentials.json
+
+# ========== DATABASES ==========
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL
+*.pgsql
+
+# MySQL
+*.mysql
+
+# ========== IDE & EDITORS ==========
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ========== OPERATING SYSTEMS ==========
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========== TESTING & COVERAGE ==========
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jest
+coverage/
+
+# ========== DOCUMENTATION ==========
+
+# Documentation builds
+docs/_build/
+.readthedocs.yml
+
+# ========== LOGS ==========
+
+# General logs
+*.log
+logs
+*.log.*
+
+# Runtime logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ========== CERTIFICATES & KEYS ==========
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# SSH keys
+id_rsa
+id_rsa.pub
+known_hosts
+
+# ========== BACKUP FILES ==========
+
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.tmp
+
+# ========== COMPRESSION ==========
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ========== PROJECT SPECIFIC ==========
+
+# If you use Docker
+# Dockerfile.*
+# docker-compose.override.yml
+
+# If you use Jupyter Notebooks
+# .ipynb_checkpoints
+
+# If you use Redis dump files
+# dump.rdb
+
+# If you use Celery beat schedule file
+# celerybeat-schedule
+# celerybeat.pid
+
+# If you use Selenium
+# *.png
+# *.jpg
+# *.jpeg
+
+# ========== OPTIONAL ADDITIONS ==========
+
+# Uncomment these if needed for your specific setup:
+
+# If you want to ignore all migration files (not recommended for production)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# If you're using Pipenv
+# Pipfile.lock
+
+# If you're using Poetry
+# poetry.lock
+
+# If you're using conda
+# .conda/
